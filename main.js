@@ -46,7 +46,7 @@ and replaces it with the string "even index" */
 Given_arr == ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
 
 function replaceEvens(arr){
-  for (let i=0; i<arr.length, i++){
+  for (let i=0; i<arr.length; i++){
     if(i%2 ==0){
       arr.splice(i,1,"even index")
     }
